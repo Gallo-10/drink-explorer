@@ -1,0 +1,23 @@
+.alphabet-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 20px 0;
+  width: 65vw;
+
+  button {
+    background-color: #274c77;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #142d51;
+    }
+  }
+}
