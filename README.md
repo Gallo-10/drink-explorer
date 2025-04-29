@@ -7,18 +7,18 @@ O projeto permite filtrar drinks por letra, nome, categoria e também favoritar 
 
 ## ✨ Funcionalidades
 
-- 🔤 **Filtro alfabético (A-Z)**: clique em uma letra e veja todos os drinks que começam com ela.
-- 🔎 **Busca por nome**: campo de busca com debounce para evitar chamadas excessivas à API.
-- 🧩 **Categorias de drinks**: exibe botões de categorias e filtra drinks por categoria selecionada.
-- ⭐ **Favoritar drinks**: o usuário pode favoritar drinks e visualizá-los separadamente.
-- 🧾 **Página de detalhes**: ao clicar em um drink, uma página detalhada exibe:
+- **Filtro alfabético (A-Z)**: clique em uma letra e veja todos os drinks que começam com ela.
+- **Busca por nome**: campo de busca com debounce para evitar chamadas excessivas à API.
+- **Categorias de drinks**: exibe botões de categorias e filtra drinks por categoria selecionada.
+- **Favoritar drinks**: o usuário pode favoritar drinks e visualizá-los separadamente.
+- **Página de detalhes**: ao clicar em um drink, uma página detalhada exibe:
   - Imagem do drink
   - Nome
   - Ingredientes e medidas
   - Instruções de preparo
-- 🧠 **Gerenciamento de estado com Pinia**: favoritos são armazenados globalmente com reatividade.
-- 💅 **Estilização com SCSS**: estilos organizados e reutilizáveis com uso de nesting e variáveis.
-- 📱 **Responsivo**: design adaptado para desktop e mobile.
+- **Gerenciamento de estado com Pinia**: favoritos são armazenados globalmente com reatividade.
+- **Estilização com SCSS**: estilos organizados e reutilizáveis com uso de nesting e variáveis.
+- **Responsivo**: design adaptado para desktop e mobile.
 
 ---
 
@@ -45,7 +45,7 @@ O projeto permite filtrar drinks por letra, nome, categoria e também favoritar 
 - Os favoritos foram implementados com base no **ID do drink**, utilizando a função `toggleFavorite` para alternar estados entre favoritado e não favoritado.
 
 
-## 🚀 Como rodar o projeto localmente
+## Como rodar o projeto localmente
 
 ```bash
 # 1. Clone o repositório
